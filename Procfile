@@ -1,0 +1,1 @@
+web: gunicorn extech.wsgi --log-file -
