@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-!jfuu18+$+sgojj$%joy-_zf=8(e!4od8+kiugrk_j*zh2jzcc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['extechdigitalresultsystem.herokuapp.com']
 
 
 
