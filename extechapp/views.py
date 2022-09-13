@@ -55,7 +55,7 @@ def signup(request):
                 
           
             else:
-                user=auth.create_user(email=email,password=password,phone_number=mobile_no)
+
                 data=User.objects.create_user(first_name=first_name,last_name=mobile_no,email=email,username=username,password=password)
                     
                 data.save() 
